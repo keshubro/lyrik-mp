@@ -25,6 +25,8 @@ const App = () => {
               <Route path="/search/:searchTerm" element={<Search />} />
             </Routes>
           </div>
+
+          {/* Will display irrespective of the URL/route */}
           <div className="xl:sticky relative top-0 h-fit">
             <TopPlay />
           </div>
